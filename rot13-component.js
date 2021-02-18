@@ -16,7 +16,7 @@ app.component("rot13", {
   },
   template: `
   <div style="text-align:center">
-      <a href="https://earthernsence.github.io/"> << back to main website << </a>
+      <a href="https://earthernsence.github.io/"> &lt;&lt; back to main website &lt;&lt; </a>
       <br>
       <a href="https://github.com/earthernsence/rot13/> code </a>
       <br>
