@@ -14,16 +14,12 @@ app.component("rot13", {
       this.output = rot13(this.input)
     }
   },
-  computed: {
-    enterLabel() {
-      return `Press enter (or click the button!) to either encode/decode`
-    },
-    buttonLabel() {
-      return `encode/decode`
-    }
-  },
   template: `
   <div style="text-align:center">
+      <a href="https://earthernsence.github.io/"> << back to main website << </a>
+      <br>
+      <a href="https://github.com/earthernsence/rot13/> code </a>
+      <br>
       <textarea 
       v-model="input"
       id="input" 
