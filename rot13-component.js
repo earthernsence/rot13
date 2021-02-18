@@ -18,7 +18,7 @@ app.component("rot13", {
   <div style="text-align:center">
       <a href="https://earthernsence.github.io/"> &lt;&lt; back to main website &lt;&lt; </a>
       <br>
-      <a href="https://github.com/earthernsence/rot13/> code </a>
+      <a href="https://github.com/earthernsence/rot13/"> code </a>
       <br>
       <textarea 
       v-model="input"
